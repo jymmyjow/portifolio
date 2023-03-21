@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+:root{
+    --cor-primaria: linear-gradient(#638fae,#272c35);
+    --cor-segundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+
+    --font-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background: var(--cor-primaria);
+}
+.cabecalho{
+    padding: 4% 0 0 15%;
+}
+.naveg{
+    display: flex;
+    gap: 80px;
+
+}
+.menu{
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--cor-segundaria);
+}
+
+.apresentacao__pai{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+    gap: 82px;
+}
+
+.apresentacao__section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    
+ 
+}
+
+.titulo{
+    font-family:var(--font-primaria);
+    font-size: 2.25rem;
+
+}
+
+
+.strong{
+    color: var(--cor-terciaria);
+}
+
+.paragrafo{
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+
+}
+
+.apresentacao__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--cor-segundaria);
+    padding: 21.5px 0;
+    width: 50%;
+    transition: 1.2s;
+    
+}
+.botao:hover{
+    background-color: var(--cor-segundaria);
+    color: var(--cor-terciaria);
+    transform: scale(1.1);
+   
+}
+.imagem{
+    width: 50%;
+    opacity: 0.1;
+    transition: 550ms;
+   
+}
+.imagem:hover{
+    opacity: 1;
+}
+.rodape{
+    background-color:var(--cor-terciaria);
+    color: #100f0f;
+    padding: 24px;
+    text-align: center;
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+   
+}
+
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 5%;
+    }
+    .naveg{
+        display: flex;
+        justify-content: center;
+    }
+    .apresentacao__pai{
+        flex-direction: column-reverse;
+        padding: 2% 10%;
+    }
+    .apresentacao__section{
+        width: auto;
+    }
+        
+    
+
+}
+    
+    
