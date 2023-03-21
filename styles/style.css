@@ -118,6 +118,9 @@ body{
     .cabecalho{
         padding: 5%;
     }
+    .imagem{
+        margin-top: 10%;
+    }
     .naveg{
         display: flex;
         justify-content: center;
@@ -129,6 +132,7 @@ body{
     .apresentacao__section{
         width: auto;
     }
+
     .rodape{
         margin-top: 5%;
     }
