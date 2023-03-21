@@ -129,7 +129,9 @@ body{
     .apresentacao__section{
         width: auto;
     }
-        
+    .rodape{
+        margin-top: 5%;
+    }
     
 
 }
